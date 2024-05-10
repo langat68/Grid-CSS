@@ -1,0 +1,98 @@
+body {
+  box-sizing: border-box;
+  background-color: #9b9895;
+  font-family: 'roboto';
+}
+
+.block {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  /* max-width: 120rem; */
+  margin: 50px 19px;
+  gap: 2rem;
+}
+
+.block1 {
+  gap: 2rem;
+  display: grid;
+  /* background-color: purple; */
+}
+
+.id {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 0;
+  /* padding: 2px; */
+}
+
+img {
+  border-radius: 100%;
+  margin: 0;
+}
+.child1 {
+  gap: 2rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.Daniel {
+  /* max-height: auto; */
+  border-radius: 10px;
+  color: white;
+  background-color: hsl(263, 69%, 50%);
+  padding: 20px;
+  border-radius: 15px;
+}
+.Jonathan {
+  /* width: 400px; */
+  max-height: auto;
+  border-radius: 15px;
+  background-color: #31363f;
+  color: white;
+  padding: 20px;
+}
+.child2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+}
+
+.Jeanette {
+  /* width: 400px; */
+  max-height: auto;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 20px;
+  border-radius: 15px;
+}
+.patrick {
+  /* width: 400px; */
+  max-height: auto;
+  border-radius: 15px;
+  background-color: hsl(219, 29%, 14%);
+  padding: 30px;
+  color: white;
+}
+.container2 {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 2px 1px rgb(128, 109, 109);
+  grid-template-columns: 1fr 2fr;
+}
+.topic {
+  font-weight: bold;
+  font-size: 25px;
+}
+/* Your existing CSS styles */
+
+@media only screen and (max-width: 640px) {
+  .container,
+  .container1,
+  .child1,
+  .child2,
+  .container2 {
+    display: grid; 
+    grid-template-columns: 1fr; /* large screens*/
+  }
+}
